@@ -1,0 +1,25 @@
+name: car_license_plate
+description: >
+  A comprehensive package for managing and displaying car license plates in iran for Flutter applications. This project is a specialized package that includes platform-specific implementation code for All Platforms.
+version: 0.0.6
+homepage: "https://github.com/ashkanbmn/car_license_plate"
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
